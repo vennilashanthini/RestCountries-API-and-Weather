@@ -1,0 +1,65 @@
+body{
+    background-image: linear-gradient(to right,grey,black);
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    
+}
+.card{
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    color: black;
+    background-image: linear-gradient(to right,blanchedalmond,black);
+   
+}
+img{
+    width: 200px;
+    height: 100px;
+}
+h3{
+    position: relative;
+    color: rgb(251, 251, 252);
+    font-family:sans-serif;
+    top: -19px;
+    width: 300px;
+    height: 50px;
+    background-image: linear-gradient(to right,grey,black);
+    
+}
+button{
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+    border: 2px solid white;
+    background: transparent;
+}
+
+button:hover{
+    background: transparent;
+    border: 2px ;
+    color: aliceblue;
+    
+}
+.container{
+    width: 100%;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+.cName,.cWeather{
+    color: white;
+}
+
+.text-center{
+    margin: 30px;
+}
